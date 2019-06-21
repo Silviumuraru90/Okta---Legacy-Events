@@ -10,7 +10,7 @@
 - app.generic.import.started;
 - app.office365.api.sync.heartbeat.sent;<br>
 And so on...
-
+</i>
 You can retrieve those only by having an API token and then specifying the:
 - dubdomain;
 - domain;
