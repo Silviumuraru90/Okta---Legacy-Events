@@ -11,7 +11,8 @@
 - app.office365.api.sync.heartbeat.sent;<br>
 And so on...
 </i>
-You can retrieve those only by having an API token and then specifying the:
+You can retrieve those only by having an API token and then specifying the:<br>
+
 - dubdomain;
 - domain;
 - timeframe;
