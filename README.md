@@ -12,7 +12,7 @@
 And so on...
 </i>
 <br>
-<b>You can retrieve those only by having an API token and then specifying the:</b>
+<b>You can retrieve those only by having an API token and then specifying the:</b><br>
 - dubdomain;
 - domain;
 - timeframe;
