@@ -16,7 +16,7 @@ You can retrieve those only by having an API token and then specifying the:
 - domain;
 - timeframe;
 - type of legacy.events;
-- nr. of events retrieved.<br>
+- nr. of events retrieved.<br><br>
 
 
 <b> Note: </b> <br>
