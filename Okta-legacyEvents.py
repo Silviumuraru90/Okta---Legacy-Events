@@ -65,33 +65,33 @@ def raw_data(event, n, x):
     print("========================================\n\n\n\n\n\n")
 
 def detailed_data(event, n, x):
-        print("========================================")
+    print("========================================")
         
-        if x == 1:
-            print("========== The only Event is: ==========")
-        else:
-            print("=========== Event nr. {} is: ===========".format(n))
+    if x == 1:
+        print("========== The only Event is: ==========")
+    else:
+        print("=========== Event nr. {} is: ===========".format(n))
 
-        print("========================================\n")
-        print("The Actor is:\n",event["actor"],"\n\n")
-        print("The Client is:\n",event["client"],"\n\n")
-        print("The Auth. Context is:\n",event["authenticationContext"],"\n\n")
-        print("The Display Message is:\n",event["displayMessage"],"\n\n")
-        print("The Event Type is:\n",event["eventType"],"\n\n")
-        print("The Outcome is:\n",event["outcome"],"\n\n")
-        print("It's been Published at:\n",event["published"],"\n\n")
-        print("The Security Context is:\n",event["securityContext"],"\n\n")
-        print("The Severity is:\n",event["severity"],"\n\n")
-        print("The Debug Context is:\n",event["debugContext"],"\n\n")
-        print("The Legacy Event you search with is:\n",event["legacyEventType"],"\n\n")
-        print("The Transaction is:\n",event["transaction"],"\n\n")
-        print("The UUID is:\n",event["uuid"],"\n\n")
-        print("The Version is:\n",event["version"],"\n\n")
-        print("The Request is:\n",event["request"],"\n\n")
-        print("The Target is:\n",event["target"],"\n\n")
-        print("========================================")
-        print("========================================")
-        print("========================================\n\n\n\n\n\n")
+    print("========================================\n")
+    print("The Actor is:\n",event["actor"],"\n\n")
+    print("The Client is:\n",event["client"],"\n\n")
+    print("The Auth. Context is:\n",event["authenticationContext"],"\n\n")
+    print("The Display Message is:\n",event["displayMessage"],"\n\n")
+    print("The Event Type is:\n",event["eventType"],"\n\n")
+    print("The Outcome is:\n",event["outcome"],"\n\n")
+    print("It's been Published at:\n",event["published"],"\n\n")
+    print("The Security Context is:\n",event["securityContext"],"\n\n")
+    print("The Severity is:\n",event["severity"],"\n\n")
+    print("The Debug Context is:\n",event["debugContext"],"\n\n")
+    print("The Legacy Event you search with is:\n",event["legacyEventType"],"\n\n")
+    print("The Transaction is:\n",event["transaction"],"\n\n")
+    print("The UUID is:\n",event["uuid"],"\n\n")
+    print("The Version is:\n",event["version"],"\n\n")
+    print("The Request is:\n",event["request"],"\n\n")
+    print("The Target is:\n",event["target"],"\n\n")
+    print("========================================")
+    print("========================================")
+    print("========================================\n\n\n\n\n\n")
 
 while True:
     if ignore_the_first_iteration != 0:
