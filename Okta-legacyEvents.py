@@ -149,44 +149,7 @@ while True:
     def main():
         n=0
         list_of_events = getEvents()
-        #if data_type == 1:
-
         raw_comp(limit, list_of_events, data_type, n)
-
-        #     if limit == 0:
-        #         print("The limit should be != 0, if you want events to be displayed.")
-        #     elif len(list_of_events) == 1:
-        #         print("\n\n")
-        #         raw_data(list_of_events[0], limit)
-        #     else:
-        #         print("\n\n\nThe {} events are: \n\n".format(len(list_of_events)))
-        #         for event in list_of_events:
-        #             n += 1
-        #             raw_data(event, n, len(list_of_events))
-        # elif data_type == 2:
-        #     if limit == 0:
-        #         print("The limit should be != 0, if you want events to be displayed.")
-        #     elif len(list_of_events) == 1:
-        #         print("\n\n")
-        #         detailed_data(list_of_events[0], limit)
-        #     else:
-        #         print("\n\n\nThe {} events are: \n\n".format(len(list_of_events)))
-        #         for event in list_of_events:
-        #             n += 1
-        #             detailed_data(event, n, len(list_of_events))
-        # elif data_type == 3:           
-        #     if limit == 0:
-        #         print("The limit should be != 0, if you want events to be displayed.")
-        #     elif len(list_of_events) == 1:
-        #         print("\n\n")
-        #         main_data_aspects(list_of_events[0], limit)
-        #     else:
-        #         print("\n\n\nThe {} events are: \n\n".format(len(list_of_events)))
-        #         for event in list_of_events:
-        #             n += 1
-        #             main_data_aspects(event, n, len(list_of_events))            
-        # else:
-        #     print("The value entered for the Data format output is not 1, 2 or 3")
 
     def getEvents():
         if order == 1:
