@@ -22,4 +22,4 @@ You can retrieve those only by having an API token and then specifying the:
 
 
 <b> Note: </b> <br>
-:warning: This is NOT an official Okta Dev-vetted product / script, but rather a personal project. This does not qualify for any Okta support. Anyone who chooses to use this must ensure that their implementation meets any applicable legal obligations including any Okta terms and conditions. :warning:
+:warning: This is NOT an official Okta Dev-vetted product / script, but rather a personal project. This does not qualify for any Okta support. Anyone who chooses to use this must ensure that their implementation meets any applicable legal obligations including any Okta terms and conditions.
