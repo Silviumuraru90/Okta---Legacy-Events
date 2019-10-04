@@ -141,7 +141,7 @@ while True:
     limit = int(input("\n\nNr. of events you want displayed is: \n").strip())
 
     # Descending or Ascending order
-    order = int(input("\n\nIf you want the events to be displayed in a Descending order -> type 1,\n Or else, if you need to see them in an Ascending order -> type 2. Note: Any other value will still result in displaying the events, but in an ASCENDING order. \n").strip())
+    order = int(input("\n\nIf you want the events to be displayed in a Descending order (oldest one at the bottom) -> type 1,\n Or else, if you need to see them in an Ascending order -> type 2. Note: Any other value will still result in displaying the events, but in an ASCENDING order. \n").strip())
 
     # Asking whether they want displayed the Main Aspects of the data / The whole Raw Data / The Whole Detailed Data
     data_type = int(input("\n\nIf you want the Data to be displayed in a RAW form (1), Detailed Form (2) or just the Main Aspects (3), please input 1, 2 or 3, per option preferred. \n").strip())
